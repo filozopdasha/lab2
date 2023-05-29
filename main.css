@@ -7,7 +7,7 @@ body{
 	background-color: white;
     padding: 10px;
     border-radius: 5px;
-    height: 230px;
+    height: 245px;
 	position: relative;
 	width: 60%;
 }
@@ -16,7 +16,7 @@ body{
 	background-color: white;
 	padding: 10px;
 	border-radius: 5px;
-	height: 240px;
+	height: 260px;
 	width: 25%;
 }
 
@@ -261,4 +261,23 @@ background-color: red;
 	position: relative;
 	top:-10px;
   }
+
+  .starter-line{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+	height:25%
+  }
+  .line-for-products{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	gap:5px;
+	flex-direction: row;
+	width: 100%;
+	height:25%
+  }
+  
 
