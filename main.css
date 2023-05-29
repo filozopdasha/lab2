@@ -257,4 +257,8 @@ background-color: red;
 	  position:absolute;
 	}
   }
+  .my-name{
+	position: relative;
+	top:-10px;
+  }
 
