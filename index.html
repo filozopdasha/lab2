@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Document</title>
+    <style>
+        @media (max-width: 500px) {
+	.container {
+		flex-direction: column;
+	}
+	.left-part {
+		width: 95%;
+	}
+	.right-part{
+		width: 95%;
+	}
+}
+    </style>
+</head>
+
+<body class="container">
+
+<section class="left-part">
+    
+    <section class="line">
+        <input type="text" class="name" placeholder="Назва товару"/>
+        <button id="add-button" class="tooltip" data-tooltip="click to add"><b>Додати</b></button>
+    </section>
+    <hr>
+
+    <section class="line">
+        <div class="lblock"><s>Помідори</s></div>
+        <div class="block"> 
+            <span class="amount-gray">2</span>
+        </div>
+    <div class="Bblock">
+        <button class="buy">Не куплено</button>
+    </div>
+</section>
+    <hr>
+
+    <section class="line">
+        <div class="lblock"> Печиво</div>
+       <div class="block"> 
+        <div  class="red-minus">
+        <span class="tooltip" data-tooltip="remove product">-</span>
+        </div>
+        <span class="amount-gray">2</span>
+        <div class="green-plus">
+        <span class="tooltip" data-tooltip="add product">+</span>
+        </div>
+       </div>
+    <div class="Bblock">
+        <button class="buy">Куплено</button>
+        <div class="cross">
+        <span class="tooltip" data-tooltip="delete">x</span>
+        </div>
+    </div>
+</section>
+    <hr>
+
+    <section class="line">
+        <section class="lblock">
+       <input type="text" class="cheese-border" placeholder="Сир">
+        </section>
+       <section class="block">
+        <div class="red-minus2">
+        <span>-</span>
+        </div>
+        <span class="amount-gray">1</span>
+        <div class="green-plus">
+        <span class="tooltip" data-tooltip="add product">+</span>
+        </div>
+       </section>
+       <section class="Bblock">
+        <button class="buy">Куплено</button>
+        <div class="cross">
+        <span class="tooltip" data-tooltip="delete">x</span>
+        </div>
+       </section>
+    </section>
+
+</section>
+
+<section class="right-part">
+    <h2>Залишилося</h2>
+    <hr>
+    <div class="products-stats">
+    <span class="product-item">
+		Печиво
+		<span class="amount" style="color: white;">2</span>
+	</span>
+
+    <span class="product-item">
+		Сир
+		<span class="amount" style="color: white;">1</span>
+	</span>
+</div>
+    <hr>
+    <h2>Куплено</h2>
+    <hr>
+    <div class="products-stats">
+    <span class="product-item">
+		<s>Помідори</s>
+		<span class="amount" style="color: white;"><s>2</s></span>
+	</span>
+</div>
+</section>
+<div class="badge"><div class="creator-name"><h3><b class="buy-list">Buy List</b></h3>
+     Created by:
+    Dasha Filozop
+    </div>
+
+
+</body>
+</html>
