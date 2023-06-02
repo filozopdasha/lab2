@@ -17,7 +17,7 @@ body{
 	padding: 10px;
 	border-radius: 5px;
 	height: 267px;
-	width: 25%;
+	width: 35%;
 }
 
 .container {
@@ -71,7 +71,7 @@ body{
 	display:flex;
 	justify-content: center;
 }
-.Bblock{
+.buttonblock{
 	width: 29%;
 	text-align: right;
 }
@@ -92,8 +92,6 @@ body{
 	padding: 3%;
 	border-radius: 5px;
 	text-align: center;
-
-
 }
 
 .red-minus{
@@ -158,7 +156,7 @@ background-color: red;
 	border: none;
 	border-bottom: solid lightgray;
 	height: 35px;
-	width: 60%;
+	width: 68%;
 	padding: 5px;
 	border-radius: 5px;
 	text-align: center;
@@ -246,7 +244,7 @@ background-color: red;
 	}
 	.badge{
 	  background-color: white;
-	  border: 3px solid black;
+	  border: 3px solid rgb(159, 53, 159);
 	  height: 85px;
 	}
 	.badge .creator-name, .badge .creator-name{
@@ -259,7 +257,7 @@ background-color: red;
   }
   .my-name{
 	position: relative;
-	top:-10px;
+	top:-5px;
   }
 
   .starter-line{
