@@ -5,19 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="main.css" />
     <title>Document</title>
-    <style>
-        @media (max-width: 500px) {
-	.container {
-		flex-direction: column;
-	}
-	.left-part {
-		width: 95%;
-	}
-	.right-part{
-		width: 95%;
-	}
-}
-    </style>
 </head>
 
 <body class="container">
@@ -44,19 +31,13 @@
     <section class="line">
         <div class="lblock"> Печиво</div>
        <div class="block"> 
-        <div  class="red-minus">
-        <span class="tooltip" data-tooltip="remove product">-</span>
-        </div>
+        <span class="tooltip red-minus" data-tooltip="remove product">-</span>
         <span class="amount-gray">2</span>
-        <div class="green-plus">
-        <span class="tooltip" data-tooltip="add product">+</span>
-        </div>
+        <span class="tooltip green-plus" data-tooltip="add product">+</span>
        </div>
     <div class="buttonblock">
         <button class="buy tooltip" data-tooltip="bought">Куплено</button>
-        <div class="cross">
-        <span class="tooltip" data-tooltip="delete">x</span>
-        </div>
+        <span class="tooltip cross" data-tooltip="delete">x</span>
     </div>
 </section>
     <hr>
@@ -66,19 +47,13 @@
        <input type="text" class="cheese-border" placeholder="Сир">
         </section>
        <section class="block">
-        <div class="red-minus2">
-        <span>-</span>
-        </div>
+          <span class="red-minus2">-</span>
         <span class="amount-gray">1</span>
-        <div class="green-plus">
-        <span class="tooltip" data-tooltip="add product">+</span>
-        </div>
+        <span class="tooltip green-plus" data-tooltip="add product">+</span>
        </section>
        <section class="buttonblock">
         <button class="buy tooltip" data-tooltip="bought">Куплено</button>
-        <div class="cross">
-        <span class="tooltip" data-tooltip="delete">x</span>
-        </div>
+        <span class="tooltip cross" data-tooltip="delete">x</span>
        </section>
     </section>
 

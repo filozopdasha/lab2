@@ -26,6 +26,17 @@ body{
 	gap:20px;
 
 }
+@media (max-width: 500px) {
+	.container {
+		flex-direction: column;
+	}
+	.left-part {
+		width: 95%;
+	}
+	.right-part{
+		width: 95%;
+	}
+}
 
 
 .line{
@@ -156,7 +167,7 @@ background-color: red;
 	border: none;
 	border-bottom: solid lightgray;
 	height: 35px;
-	width: 68%;
+	width: 70%;
 	padding: 5px;
 	border-radius: 5px;
 	text-align: center;
