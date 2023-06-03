@@ -5,19 +5,21 @@ body{
 }
 .left-part{
 	background-color: white;
-    padding: 10px;
+    margin: 10px;
     border-radius: 5px;
-    height: 260px;
+    height: 280px;
 	position: relative;
 	width: 60%;
+	padding-bottom:10px;
 }
 
 .right-part {
 	background-color: white;
-	padding: 10px;
+	margin: 10px;
 	border-radius: 5px;
-	height: 267px;
+	height: 290px;
 	width: 35%;
+	padding-bottom: 20px;
 }
 
 .container {
@@ -39,13 +41,26 @@ body{
 }
 
 
-.line{
+.left-part .line{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	flex-direction: row;
 	width: 100%;
 	height:20%;
+	position:relative;
+	right:5px;
+}
+
+.right-part .line, .line-for-products{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 100%;
+	height:20%;
+	position:relative;
+	left:5px;
 }
 
 .name{
@@ -67,7 +82,7 @@ body{
     position: relative;
     left: -5px;
     height: 37.75px;
-    width: 20%;
+    width: 25%;
     padding: 5px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -182,7 +197,7 @@ background-color: red;
 }
 .cheese-border:focus{
 	outline:none;
-	border: 2px solid rgb(14, 66, 210);
+	border: 2px solid rgb(80, 115, 212);
 }
 
 .product-item {
